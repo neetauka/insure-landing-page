@@ -22,21 +22,36 @@
   <!-- header element -->
 
   <header>
-    <nav class="navbar box">
-      <img src="images/logo.svg" alt="logo" class="logo">
-      <ul class="nav-links">
-        <li><a href="#how_we_work">How we work</a></li>
-        <li ><a href="#blog">Blog</a></li>
-        <li><a href="#account">Account</a></li>
-        <button class="view_plans" id="#views_plans">View Plans</button>
-      </ul>
+    <nav>
+      <div class=" box">
+        <div class="navbar">
+          <div class="nav-header">
+            <img src="images/logo.svg" alt="logo" class="logo">
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          
+          <ul class="nav-links">
+            <li><a href="#how_we_work">How we work</a></li>
+            <li ><a href="#blog">Blog</a></li>
+            <li><a href="#account">Account</a></li>
+            <button class="view_plans" id="#views_plans">View Plans</button>
+          </ul>
+        </div>
+      </div>
+      
     </nav>
     <section class="header-content">
+      
       <div class="box">
-        <!-- <img src="images/bg-pattern-intro-left-desktop.svg" alt="pattern" class="pattern-right"> -->
+        
         <div class="flex">
-
+          <div class="pattern-left">
+            <img src="images/bg-pattern-intro-left-desktop.svg" alt="">
+          </div>
           <section class="header-text">
+            
             <div class="line"></div> 
     
             <h1>Humanizing  <br> your insurance.</h1>
@@ -45,12 +60,13 @@
     
             <button id="views_plans">View Plans</button>
           </section>
-          
           <section>
             <img src="images/image-intro-desktop.jpg" alt="family" class="family">
-            <!-- <img src="images/bg-pattern-intro-right-desktop.svg" alt="pattern" class="pattern-right"> -->
+           
           </section>
-          
+          <div class="pattern-right">
+            <img src="images/bg-pattern-intro-right-desktop.svg" alt="">
+          </div>
         </div>
       </div>
       
@@ -61,37 +77,39 @@
 
   <main>
     <div class="box">
-
-      <div class="line"></div> 
+      <section class="main-header">
+        <div class="main-line"></div> 
   
-      <h2>We’re different</h2>
+        <h2>We’re different</h2>
+      </section>
+      
   
       <section class="grid">
         <div class="snappy">
-          <img src="images/icon-snappy-process.svg" alt="snappy icon">
-          <h3>Snappy Process</h3>
-          <p>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.
+          <img src="images/icon-snappy-process.svg" alt="snappy icon" class="icon">
+          <h3 class="grid-header">Snappy Process</h3>
+          <p class="grid-text">Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.
           </p>
         </div>
   
         <div class="affordable-prices">
-          <img src="images/icon-affordable-prices.svg" alt="affordable-price icon">
-          <h3>Affordable Prices</h3>
-          <p>We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.
+          <img src="images/icon-affordable-prices.svg" alt="affordable-price icon" class="icon">
+          <h3 class="grid-header">Affordable Prices</h3>
+          <p class="grid-text">We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.
           </p>
         </div>
   
         <div class="people-first">
-          <img src="images/icon-people-first.svg" alt="people first icon">
-          <h3>People First</h3>
-          <p>
+          <img src="images/icon-people-first.svg" alt="people first icon" class="icon">
+          <h3 class="grid-header">People First</h3>
+          <p class="grid-text">
             Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.
           </p>
         </div>
       </section>
 
       <div class="how_we_work">
-        <h4>Find out more about how we work</h4>
+        <h4>Find out more <br> about how we work</h4>
   
         <button id="how_we_work">How we work</button>
       </div>
@@ -101,57 +119,67 @@
 
   <footer>
     <div class="box">
+      <div class=" footer-box">
 
-      <section class="footer-header">
-        <img src="images/logo.svg" alt="logo" class="logo">
-  
-        <div class="social-icons">
-          <img src="images/icon-facebook.svg" alt="facebook icon">
-          <img src="images/icon-twitter.svg" alt="twitter icon">
-          <img src="images/icon-pinterest.svg" alt="pinterest icon">
-          <img src="images/icon-instagram.svg" alt="instagram icon">
-        </div>
-  
-        <div id="line"></div> 
-      </section>
-  
-      <section class="footer-content">
-        <p>Our company
-          <ul>
-            <li><a href="#">How we work</a></li>
-            <li><a href="#">Why Insure?</a></li>
-            <li><a href="#">View plans</a></li>
-            <li><a href="#">Reviews</a></li>
-          </ul>
-        </p>
-        <p>Help me
-          <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Terms of use</a></li>
-            <li><a href="#">Privacy policy</a></li>
-            <li><a href="#">Cookies</a></li>
-          </ul>
-        </p>
-        <p>Contact
-          <ul>
-            <li><a href="#">Sales</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Live chat</a></li>
-          </ul>
-        </p>
-        <p>Others
-          <ul>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Licenses</a></li>
-          </ul>
-        </p>
-      </section>
+        <section class="footer-header">
+          <img src="images/logo.svg" alt="logo" class="logo">
+    
+          <div class="social-icons">
+            <img src="images/icon-facebook.svg" alt="facebook icon">
+            <img src="images/icon-twitter.svg" alt="twitter icon">
+            <img src="images/icon-pinterest.svg" alt="pinterest icon">
+            <img src="images/icon-instagram.svg" alt="instagram icon">
+          </div>
+    
+          <!-- <div id="line"></div>  -->
+        </section>
+    
+        <section class="footer-content">
+          <div >
+            <p>Our company
+              <ul>
+                <li><a href="#">How we work</a></li>
+                <li><a href="#">Why Insure?</a></li>
+                <li><a href="#">View plans</a></li>
+                <li><a href="#">Reviews</a></li>
+              </ul>
+            </p>
+          </div>
+          
+          <div>
+            <p>Help me
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Cookies</a></li>
+              </ul>
+            </p>
+          </div>
+          
+          <div>
+            <p>Contact
+              <ul>
+                <li><a href="#">Sales</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Live chat</a></li>
+              </ul>
+            </p>
+          </div>
+          
+          <div>
+            <p>Others
+              <ul>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Licenses</a></li>
+              </ul>
+            </p>
+          </div>
+          
+        </section>
+      </div>
     </div>
   </footer>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Anita Ukah</a>.
-  </div>
 </body>
 </html>
